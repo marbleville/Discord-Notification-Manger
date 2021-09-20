@@ -1,2 +1,2 @@
 # Discord-Notification-Manger
-Intercepts and mages how I receive pings on Discord
+Intercepts and manages how I receive pings on Discord
