@@ -96,6 +96,9 @@ function ping(message) {
                 toBePinged.push(user.id);
                 user.lastPing = Date.now();
                 updateJSON(user);
+            } else if ((Date.now() - (user.lastPing) >= (user.interval * 60000)){
+                user.lastPing = Date.now();
+                updateJSON(user);
             }
         })
     }
